@@ -49,6 +49,31 @@
 	
 }
 
+#formtype{
+	grid-column: 1;
+	grid-row: 1;
+	display: grid;
+	grid-template-columns: auto auto;
+}
+
+#login{
+	grid-column: 1;
+	border-radius: 50px;
+	padding: 10px;
+	align-self: center;
+	justify-self: center;
+	background-color: grey;
+}
+
+#signup{
+	grid-column: 2;
+	border-radius: 50px;
+	padding: 10px;
+	align-self: center;
+	justify-self: center;
+	background-color: grey;
+}
+
 body{
 	display: grid;
 	grid-template-rows: 20% 40% 20% 20% 10%;
