@@ -63,14 +63,15 @@ button {
 }
 
 #submit:active {
-  background-color: rgb(43, 43, 43);
+  background-color: var(--nord2);
+  font-size: 20px;
 }
 
 #login-form {
   grid-row: 3;
   grid-column: 2;
   display: grid;
-  grid-template-rows: auto auto auto;
+  grid-template-rows: 33% 33% 34%;
   grid-template-columns: auto auto;
 }
 
