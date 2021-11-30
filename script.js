@@ -29,3 +29,9 @@ document.getElementById("signup").addEventListener("mousedown", () => {
 document.getElementById("signup").addEventListener("mouseup", () => {
   document.getElementById("signup").style.backgroundColor = "var(--nord1)";
 });
+
+
+document.getElementById("login-form").addEventListener("submit", (e) => {
+  e.preventDefault();
+  
+});
