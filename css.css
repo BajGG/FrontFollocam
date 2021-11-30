@@ -3,6 +3,10 @@
 :root {
 }
 
+button {
+  width: 80px;
+}
+
 #uName {
   border-radius: 50px;
   padding: 10px;
@@ -68,27 +72,39 @@
   display: grid;
   grid-template-columns: auto auto;
   border-radius: 50px;
+  height: 60px;
   background-color: var(--nord1);
+  width: 200px;
 }
 
 #login {
   grid-column: 1;
   border-radius: 50px;
   padding: 10px;
+  height: 45px;
   align-self: center;
   justify-self: center;
-  background-color: lightgrey;
+  background-color: var(--nord3);
   border: none;
+}
+
+#login:active {
+  background-color: var(--nord2);
 }
 
 #signup {
   grid-column: 2;
   border-radius: 50px;
   padding: 10px;
+  height: 45px;
   align-self: center;
   justify-self: center;
-  background-color: lightgrey;
+  background-color: var(--nord1);
   border: none;
+}
+
+#signup:active {
+  background-color: var(--nord2);
 }
 
 body {
