@@ -28,7 +28,7 @@ button {
   align-self: center;
   justify-self: center;
   display: none;
-  background-color: var(--nord1);
+  background-color: var(--nord2);
 }
 
 #uName {
