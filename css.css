@@ -7,6 +7,28 @@ button {
   width: 80px;
 }
 
+#changer {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+#logo {
+  height: 100%;
+  width: auto;
+  align-self: center;
+  justify-self: center;
+  display: block;
+}
+
+#webcam {
+  height: 100%;
+  width: 100%;
+  align-self: center;
+  justify-self: center;
+  display: none;
+  background-color: var(--nord1);
+}
+
 #uName {
   height: 45px;
   width: 100%;

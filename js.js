@@ -1,11 +1,17 @@
 function login() {
   document.getElementById("signup").style.backgroundColor = "var(--nord1)";
   document.getElementById("login").style.backgroundColor = "var(--nord3)";
+
+  document.getElementById("logo").style.display = "block";
+  document.getElementById("webcam").style.display = "none";
 }
 
 function signup() {
   document.getElementById("login").style.backgroundColor = "var(--nord1)";
   document.getElementById("signup").style.backgroundColor = "var(--nord3)";
+
+  document.getElementById("logo").style.display = "none";
+  document.getElementById("webcam").style.display = "block";
 }
 
 document.getElementById("login").addEventListener("mousedown", () => {
