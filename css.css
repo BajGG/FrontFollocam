@@ -19,8 +19,7 @@ button {
 #logo {
   height: 100%;
   width: auto;
-  align-self: center;
-  justify-self: center;
+  margin: auto;
   display: block;
 }
 
