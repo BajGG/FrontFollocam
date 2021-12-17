@@ -31,9 +31,9 @@ document.getElementById("signup").addEventListener("mouseup", () => {
 });
 
 document.getElementById("login-form").addEventListener("submit", (e) => {
-  e.preventDefault();
-  alert(
-    document.getElementById("uName").value +
-      document.getElementById("pWord").value
-  );
+  //e.preventDefault();
+  //alert(
+    //document.getElementById("uName").value +
+      //document.getElementById("pWord").value
+  //);
 });
